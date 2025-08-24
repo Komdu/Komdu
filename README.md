@@ -1,1 +1,1 @@
-Who reads account README?
+Просто иногда делаю проги, иногда python, иногда html и js, а редко scratch.
