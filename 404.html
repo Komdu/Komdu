@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена - 404</title>
+    <link href="./Страница не найдена - 404_files/css2" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Roboto Mono', monospace;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Анимация звезд */
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+        
+        .star {
+            position: absolute;
+            background-color: #ffffff;
+            border-radius: 50%;
+            animation: twinkle linear infinite;
+        }
+        
+        @keyframes twinkle {
+            0% {
+                opacity: 0;
+                transform: translateY(0) translateX(0);
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-100vh) translateX(100px);
+            }
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(34, 34, 34, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+            max-width: 600px;
+            z-index: 2;
+            border: 3px solid #333;
+        }
+        
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 4rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 0 #7a3535;
+        }
+        
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.5rem;
+            color: #4a8df8;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .pixel-art {
+            margin: 30px auto;
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        
+        .pixel {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #ff6b6b;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .nav-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #333;
+            color: #e0e0e0;
+            text-decoration: none;
+            border-radius: 4px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            background-color: #4a8df8;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+        
+        .home-btn {
+            background-color: #66c2a5;
+        }
+        
+        .home-btn:hover {
+            background-color: #7dd1b6;
+        }
+        
+        /* Анимация мигания текста */
+        .blink {
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50% {
+                opacity: 1;
+            }
+            51%, 100% {
+                opacity: 0.3;
+            }
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            h2 {
+                font-size: 1rem;
+            }
+            
+            .container {
+                padding: 20px;
+                margin: 0 20px;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Анимация звезд -->
+    <div class="stars" id="stars"><div class="star" style="width: 0.301103px; height: 0.301103px; left: 83.5289vw; top: 89.467vh; animation-delay: 0.692315s; animation-duration: 6.5675s;"></div><div class="star" style="width: 1.13005px; height: 1.13005px; left: 92.3854vw; top: 34.9562vh; animation-delay: 3.83046s; animation-duration: 15.4131s;"></div><div class="star" style="width: 1.16261px; height: 1.16261px; left: 97.608vw; top: 79.3598vh; animation-delay: 1.79043s; animation-duration: 9.38928s;"></div><div class="star" style="width: 2.28615px; height: 2.28615px; left: 82.9997vw; top: 86.7254vh; animation-delay: 2.82867s; animation-duration: 12.977s;"></div><div class="star" style="width: 1.12395px; height: 1.12395px; left: 17.885vw; top: 50.6668vh; animation-delay: 2.63373s; animation-duration: 9.02933s;"></div><div class="star" style="width: 0.310455px; height: 0.310455px; left: 27.5512vw; top: 59.6512vh; animation-delay: 4.19808s; animation-duration: 19.5539s;"></div><div class="star" style="width: 2.60533px; height: 2.60533px; left: 81.8689vw; top: 52.718vh; animation-delay: 2.15248s; animation-duration: 16.0651s;"></div><div class="star" style="width: 0.225505px; height: 0.225505px; left: 17.8787vw; top: 77.2511vh; animation-delay: 3.36852s; animation-duration: 17.8221s;"></div><div class="star" style="width: 0.976417px; height: 0.976417px; left: 71.2899vw; top: 86.3835vh; animation-delay: 1.88139s; animation-duration: 8.68172s;"></div><div class="star" style="width: 1.03658px; height: 1.03658px; left: 25.6319vw; top: 98.7657vh; animation-delay: 0.188755s; animation-duration: 7.67268s;"></div><div class="star" style="width: 1.25735px; height: 1.25735px; left: 77.4357vw; top: 95.7232vh; animation-delay: 3.50259s; animation-duration: 14.9218s;"></div><div class="star" style="width: 2.79738px; height: 2.79738px; left: 71.7024vw; top: 25.4343vh; animation-delay: 0.0198108s; animation-duration: 17.5255s;"></div><div class="star" style="width: 1.68372px; height: 1.68372px; left: 37.0525vw; top: 97.5115vh; animation-delay: 2.57709s; animation-duration: 18.6119s;"></div><div class="star" style="width: 0.725633px; height: 0.725633px; left: 52.4104vw; top: 30.2849vh; animation-delay: 1.1321s; animation-duration: 16.1217s;"></div><div class="star" style="width: 0.20518px; height: 0.20518px; left: 42.2751vw; top: 55.3109vh; animation-delay: 3.06601s; animation-duration: 10.1174s;"></div><div class="star" style="width: 0.829881px; height: 0.829881px; left: 37.6199vw; top: 17.3398vh; animation-delay: 4.03635s; animation-duration: 8.37525s;"></div><div class="star" style="width: 1.00964px; height: 1.00964px; left: 35.7207vw; top: 71.7059vh; animation-delay: 3.52998s; animation-duration: 18.8631s;"></div><div class="star" style="width: 0.703745px; height: 0.703745px; left: 71.7355vw; top: 74.6438vh; animation-delay: 2.9918s; animation-duration: 19.5306s;"></div><div class="star" style="width: 1.75371px; height: 1.75371px; left: 24.2848vw; top: 39.9467vh; animation-delay: 3.24933s; animation-duration: 11.5527s;"></div><div class="star" style="width: 0.455087px; height: 0.455087px; left: 28.1259vw; top: 17.9187vh; animation-delay: 3.0719s; animation-duration: 10.5422s;"></div><div class="star" style="width: 0.22409px; height: 0.22409px; left: 92.1222vw; top: 55.9587vh; animation-delay: 1.08386s; animation-duration: 15.5822s;"></div><div class="star" style="width: 1.38895px; height: 1.38895px; left: 43.4881vw; top: 37.5484vh; animation-delay: 0.949387s; animation-duration: 19.8653s;"></div><div class="star" style="width: 0.205699px; height: 0.205699px; left: 69.5711vw; top: 79.945vh; animation-delay: 1.91128s; animation-duration: 14.7495s;"></div><div class="star" style="width: 1.66061px; height: 1.66061px; left: 80.9268vw; top: 89.6263vh; animation-delay: 4.2872s; animation-duration: 11.2336s;"></div><div class="star" style="width: 1.68128px; height: 1.68128px; left: 77.6794vw; top: 80.9556vh; animation-delay: 1.43234s; animation-duration: 16.3536s;"></div><div class="star" style="width: 0.8227px; height: 0.8227px; left: 8.88609vw; top: 69.8822vh; animation-delay: 1.5107s; animation-duration: 9.03881s;"></div><div class="star" style="width: 1.94723px; height: 1.94723px; left: 33.72vw; top: 44.5877vh; animation-delay: 0.252534s; animation-duration: 15.8299s;"></div><div class="star" style="width: 1.16272px; height: 1.16272px; left: 91.0802vw; top: 86.6766vh; animation-delay: 0.304799s; animation-duration: 17.8959s;"></div><div class="star" style="width: 1.11938px; height: 1.11938px; left: 26.8977vw; top: 89.3773vh; animation-delay: 4.76977s; animation-duration: 7.03632s;"></div><div class="star" style="width: 0.333763px; height: 0.333763px; left: 18.1758vw; top: 94.3444vh; animation-delay: 1.04131s; animation-duration: 6.16441s;"></div><div class="star" style="width: 1.86535px; height: 1.86535px; left: 25.2702vw; top: 5.19452vh; animation-delay: 2.72612s; animation-duration: 9.53864s;"></div><div class="star" style="width: 0.0531119px; height: 0.0531119px; left: 29.9345vw; top: 58.8742vh; animation-delay: 4.48338s; animation-duration: 8.09243s;"></div><div class="star" style="width: 2.10548px; height: 2.10548px; left: 9.94452vw; top: 1.88268vh; animation-delay: 4.62206s; animation-duration: 10.2075s;"></div><div class="star" style="width: 2.62657px; height: 2.62657px; left: 10.3607vw; top: 68.8079vh; animation-delay: 3.08354s; animation-duration: 13.0786s;"></div><div class="star" style="width: 2.23577px; height: 2.23577px; left: 52.8231vw; top: 31.0501vh; animation-delay: 1.55685s; animation-duration: 11.6665s;"></div><div class="star" style="width: 2.55867px; height: 2.55867px; left: 21.4347vw; top: 39.9703vh; animation-delay: 3.53447s; animation-duration: 8.89728s;"></div><div class="star" style="width: 2.18665px; height: 2.18665px; left: 2.73526vw; top: 50.1097vh; animation-delay: 0.504587s; animation-duration: 12.9558s;"></div><div class="star" style="width: 1.98712px; height: 1.98712px; left: 76.3778vw; top: 90.5592vh; animation-delay: 3.31002s; animation-duration: 18.2851s;"></div><div class="star" style="width: 0.989738px; height: 0.989738px; left: 35.4569vw; top: 56.0214vh; animation-delay: 1.28978s; animation-duration: 12.2956s;"></div><div class="star" style="width: 0.938836px; height: 0.938836px; left: 20.9951vw; top: 69.6882vh; animation-delay: 1.26917s; animation-duration: 19.3917s;"></div><div class="star" style="width: 0.255731px; height: 0.255731px; left: 8.52818vw; top: 81.6652vh; animation-delay: 3.93851s; animation-duration: 16.7403s;"></div><div class="star" style="width: 1.01977px; height: 1.01977px; left: 44.5157vw; top: 11.6781vh; animation-delay: 4.20988s; animation-duration: 19.29s;"></div><div class="star" style="width: 1.74134px; height: 1.74134px; left: 62.9497vw; top: 36.7293vh; animation-delay: 2.86782s; animation-duration: 6.49773s;"></div><div class="star" style="width: 2.28456px; height: 2.28456px; left: 37.7414vw; top: 28.9443vh; animation-delay: 4.2191s; animation-duration: 7.8579s;"></div><div class="star" style="width: 2.02006px; height: 2.02006px; left: 85.6563vw; top: 42.4045vh; animation-delay: 1.47961s; animation-duration: 19.8634s;"></div><div class="star" style="width: 0.859659px; height: 0.859659px; left: 59.1641vw; top: 76.8222vh; animation-delay: 3.5156s; animation-duration: 8.16874s;"></div><div class="star" style="width: 1.30692px; height: 1.30692px; left: 47.9315vw; top: 42.8941vh; animation-delay: 0.875821s; animation-duration: 8.73463s;"></div><div class="star" style="width: 2.27445px; height: 2.27445px; left: 50.7446vw; top: 23.1931vh; animation-delay: 3.23586s; animation-duration: 17.3641s;"></div><div class="star" style="width: 1.92743px; height: 1.92743px; left: 42.6444vw; top: 16.1138vh; animation-delay: 2.69509s; animation-duration: 18.8296s;"></div><div class="star" style="width: 1.21727px; height: 1.21727px; left: 88.9338vw; top: 56.7478vh; animation-delay: 3.88197s; animation-duration: 15.0413s;"></div><div class="star" style="width: 2.931px; height: 2.931px; left: 15.7256vw; top: 65.5403vh; animation-delay: 0.805547s; animation-duration: 6.96648s;"></div><div class="star" style="width: 0.0775441px; height: 0.0775441px; left: 83.0406vw; top: 84.0158vh; animation-delay: 1.51793s; animation-duration: 18.1588s;"></div><div class="star" style="width: 2.87704px; height: 2.87704px; left: 88.5148vw; top: 85.5708vh; animation-delay: 2.00682s; animation-duration: 14.3726s;"></div><div class="star" style="width: 0.754147px; height: 0.754147px; left: 66.4029vw; top: 20.062vh; animation-delay: 2.81469s; animation-duration: 15.4574s;"></div><div class="star" style="width: 0.109766px; height: 0.109766px; left: 43.0671vw; top: 30.5044vh; animation-delay: 3.8317s; animation-duration: 8.1072s;"></div><div class="star" style="width: 2.16603px; height: 2.16603px; left: 9.58514vw; top: 43.3984vh; animation-delay: 0.0928989s; animation-duration: 5.66108s;"></div><div class="star" style="width: 0.150829px; height: 0.150829px; left: 14.5087vw; top: 22.6337vh; animation-delay: 0.0925834s; animation-duration: 18.2387s;"></div><div class="star" style="width: 2.29525px; height: 2.29525px; left: 8.04202vw; top: 26.6151vh; animation-delay: 2.98553s; animation-duration: 13.5423s;"></div><div class="star" style="width: 1.57687px; height: 1.57687px; left: 5.67243vw; top: 85.9183vh; animation-delay: 4.24848s; animation-duration: 16.1932s;"></div><div class="star" style="width: 2.03187px; height: 2.03187px; left: 65.2456vw; top: 93.0473vh; animation-delay: 0.328823s; animation-duration: 6.42094s;"></div><div class="star" style="width: 1.05789px; height: 1.05789px; left: 92.514vw; top: 24.3899vh; animation-delay: 0.353479s; animation-duration: 6.18612s;"></div><div class="star" style="width: 1.07322px; height: 1.07322px; left: 67.1935vw; top: 48.463vh; animation-delay: 2.3705s; animation-duration: 8.50135s;"></div><div class="star" style="width: 1.21839px; height: 1.21839px; left: 80.8001vw; top: 65.5928vh; animation-delay: 0.729946s; animation-duration: 6.10068s;"></div><div class="star" style="width: 0.48183px; height: 0.48183px; left: 34.5801vw; top: 47.2691vh; animation-delay: 4.24043s; animation-duration: 12.3548s;"></div><div class="star" style="width: 1.03466px; height: 1.03466px; left: 74.1985vw; top: 80.6043vh; animation-delay: 4.94883s; animation-duration: 7.72941s;"></div><div class="star" style="width: 1.42259px; height: 1.42259px; left: 91.0523vw; top: 8.62752vh; animation-delay: 0.180269s; animation-duration: 15.6617s;"></div><div class="star" style="width: 0.0571373px; height: 0.0571373px; left: 4.09506vw; top: 41.419vh; animation-delay: 3.69047s; animation-duration: 6.08424s;"></div><div class="star" style="width: 2.87337px; height: 2.87337px; left: 64.5115vw; top: 52.023vh; animation-delay: 1.08625s; animation-duration: 6.99932s;"></div><div class="star" style="width: 0.657977px; height: 0.657977px; left: 96.7892vw; top: 3.97967vh; animation-delay: 2.0984s; animation-duration: 7.9059s;"></div><div class="star" style="width: 2.79742px; height: 2.79742px; left: 69.4541vw; top: 93.7013vh; animation-delay: 3.95177s; animation-duration: 17.7208s;"></div><div class="star" style="width: 0.854892px; height: 0.854892px; left: 41.8701vw; top: 74.1337vh; animation-delay: 4.43469s; animation-duration: 8.80652s;"></div><div class="star" style="width: 2.68139px; height: 2.68139px; left: 70.5056vw; top: 21.7225vh; animation-delay: 1.80817s; animation-duration: 9.5596s;"></div><div class="star" style="width: 2.28715px; height: 2.28715px; left: 9.92587vw; top: 44.9023vh; animation-delay: 2.12632s; animation-duration: 15.431s;"></div><div class="star" style="width: 2.62774px; height: 2.62774px; left: 82.4515vw; top: 9.76051vh; animation-delay: 3.6374s; animation-duration: 11.2399s;"></div><div class="star" style="width: 0.34604px; height: 0.34604px; left: 39.7835vw; top: 45.597vh; animation-delay: 0.029704s; animation-duration: 7.44294s;"></div><div class="star" style="width: 0.43746px; height: 0.43746px; left: 65.5289vw; top: 69.8369vh; animation-delay: 2.5289s; animation-duration: 11.4427s;"></div><div class="star" style="width: 2.57659px; height: 2.57659px; left: 27.7535vw; top: 26.553vh; animation-delay: 3.13175s; animation-duration: 10.2609s;"></div><div class="star" style="width: 1.37117px; height: 1.37117px; left: 62.7171vw; top: 60.996vh; animation-delay: 1.79437s; animation-duration: 13.901s;"></div><div class="star" style="width: 2.24352px; height: 2.24352px; left: 68.9231vw; top: 40.1812vh; animation-delay: 1.45383s; animation-duration: 15.1024s;"></div><div class="star" style="width: 2.53944px; height: 2.53944px; left: 81.2433vw; top: 51.3832vh; animation-delay: 4.84297s; animation-duration: 17.7034s;"></div><div class="star" style="width: 1.38211px; height: 1.38211px; left: 95.9653vw; top: 61.9557vh; animation-delay: 3.76587s; animation-duration: 5.59605s;"></div><div class="star" style="width: 1.2756px; height: 1.2756px; left: 96.3265vw; top: 44.5866vh; animation-delay: 1.12909s; animation-duration: 12.4227s;"></div><div class="star" style="width: 2.37225px; height: 2.37225px; left: 32.0568vw; top: 84.8522vh; animation-delay: 1.60946s; animation-duration: 13.2372s;"></div><div class="star" style="width: 1.81341px; height: 1.81341px; left: 17.5008vw; top: 23.0243vh; animation-delay: 4.91673s; animation-duration: 11.2025s;"></div><div class="star" style="width: 2.86752px; height: 2.86752px; left: 45.4401vw; top: 16.5269vh; animation-delay: 3.27576s; animation-duration: 5.47471s;"></div><div class="star" style="width: 1.06682px; height: 1.06682px; left: 41.371vw; top: 31.592vh; animation-delay: 0.243819s; animation-duration: 15.6153s;"></div><div class="star" style="width: 2.40423px; height: 2.40423px; left: 26.1806vw; top: 72.3181vh; animation-delay: 3.66812s; animation-duration: 6.26507s;"></div><div class="star" style="width: 2.27357px; height: 2.27357px; left: 62.2501vw; top: 15.0558vh; animation-delay: 3.03805s; animation-duration: 6.53723s;"></div><div class="star" style="width: 1.45955px; height: 1.45955px; left: 99.9728vw; top: 13.8453vh; animation-delay: 3.90494s; animation-duration: 17.6294s;"></div><div class="star" style="width: 1.29174px; height: 1.29174px; left: 83.2883vw; top: 53.4945vh; animation-delay: 1.36016s; animation-duration: 12.9113s;"></div><div class="star" style="width: 0.648233px; height: 0.648233px; left: 21.8019vw; top: 19.4092vh; animation-delay: 0.0936508s; animation-duration: 13.5353s;"></div><div class="star" style="width: 0.965611px; height: 0.965611px; left: 56.7734vw; top: 26.7165vh; animation-delay: 3.27465s; animation-duration: 14.4141s;"></div><div class="star" style="width: 2.61669px; height: 2.61669px; left: 56.0074vw; top: 54.3267vh; animation-delay: 4.24903s; animation-duration: 9.23109s;"></div><div class="star" style="width: 1.60765px; height: 1.60765px; left: 53.2832vw; top: 39.1085vh; animation-delay: 0.00530417s; animation-duration: 18.288s;"></div><div class="star" style="width: 0.914554px; height: 0.914554px; left: 81.6977vw; top: 81.2202vh; animation-delay: 3.97567s; animation-duration: 16.0584s;"></div><div class="star" style="width: 2.02853px; height: 2.02853px; left: 39.3875vw; top: 15.8413vh; animation-delay: 2.10471s; animation-duration: 8.10498s;"></div><div class="star" style="width: 2.55054px; height: 2.55054px; left: 22.4302vw; top: 2.29645vh; animation-delay: 4.44159s; animation-duration: 6.56519s;"></div><div class="star" style="width: 0.877836px; height: 0.877836px; left: 93.768vw; top: 64.6134vh; animation-delay: 3.37077s; animation-duration: 7.29882s;"></div><div class="star" style="width: 0.40466px; height: 0.40466px; left: 2.03238vw; top: 11.8058vh; animation-delay: 0.84158s; animation-duration: 6.93081s;"></div><div class="star" style="width: 0.536978px; height: 0.536978px; left: 20.9678vw; top: 82.4651vh; animation-delay: 0.758628s; animation-duration: 10.3443s;"></div></div>
+    
+    <div class="container">
+        <h1>404</h1>
+        <h2>СТРАНИЦА НЕ НАЙДЕНА</h2>
+        
+        <p class="blink">Ошибка: Запрашиваемая страница не существует в этой вселенной.</p>
+        
+        <p>Возможно, она была перемещена, удалена или вы ввели неправильный URL.</p>
+        
+        
+        
+        <div class="nav-links">
+            <a href="file:///C:/Users/Komdu/Downloads/index.html" class="nav-btn home-btn">На главную</a>
+            <a href="file:///C:/Users/Komdu/Downloads/archives.html" class="nav-btn">В архивы</a>
+        </div>
+    </div>
+
+    <script>
+        // Создание звезд
+        function createStars() {
+            const starsContainer = document.getElementById('stars');
+            const starsCount = 100;
+            
+            for (let i = 0; i < starsCount; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                
+                // Случайные параметры для звезды
+                const size = Math.random() * 3;
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                const delay = Math.random() * 5;
+                const duration = 5 + Math.random() * 15;
+                
+                star.style.width = `${size}px`;
+                star.style.height = `${size}px`;
+                star.style.left = `${posX}vw`;
+                star.style.top = `${posY}vh`;
+                star.style.animationDelay = `${delay}s`;
+                star.style.animationDuration = `${duration}s`;
+                
+                starsContainer.appendChild(star);
+            }
+        }
+        
+        // Создание пиксельного арта (число 404)
+        function createPixelArt() {
+            const container = document.getElementById('pixelArt');
+            
+            // Координаты для отрисовки цифры 4
+            const pixels4 = [
+                [3,0], [4,0], [5,0], [6,0],
+                [3,1], [6,1],
+                [3,2], [6,2],
+                [3,3], [4,3], [5,3], [6,3],
+                [6,4], [6,5], [6,6]
+            ];
+            
+            // Координаты для отрисовки цифры 0
+            const pixels0 = [
+                [8,0], [9,0], [10,0], [11,0],
+                [8,1], [11,1],
+                [8,2], [11,2],
+                [8,3], [11,3],
+                [8,4], [11,4],
+                [8,5], [11,5],
+                [8,6], [9,6], [10,6], [11,6]
+            ];
+            
+            // Координаты для отрисовки второй цифры 4
+            const pixels4_2 = [
+                [13,0], [14,0], [15,0], [16,0],
+                [13,1], [16,1],
+                [13,2], [16,2],
+                [13,3], [14,3], [15,3], [16,3],
+                [16,4], [16,5], [16,6]
+            ];
+            
+            // Функция для создания пикселей
+            function createPixels(coordinates, offsetX = 0) {
+                coordinates.forEach(([x, y]) => {
+                    const pixel = document.createElement('div');
+                    pixel.classList.add('pixel');
+                    pixel.style.left = `${(x + offsetX) * 10}px`;
+                    pixel.style.top = `${y * 10}px`;
+                    
+                    // Случайное затемнение для эффекта глубины
+                    const darken = Math.random() * 30;
+                    pixel.style.backgroundColor = `rgb(${255 - darken}, ${107 - darken/2}, ${107 - darken/2})`;
+                    
+                    container.appendChild(pixel);
+                });
+            }
+            
+            // Создаем все три цифры
+            createPixels(pixels4);
+            createPixels(pixels0, 5); // Смещение для второй цифры
+            createPixels(pixels4_2, 10); // Смещение для третьей цифры
+        }
+        
+        // Инициализация при загрузке страницы
+        window.addEventListener('load', () => {
+            createStars();
+            createPixelArt();
+        });
+    </script>
+
+</body></html>
